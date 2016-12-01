@@ -1,0 +1,17 @@
+{
+  "name": "vendor_name/package_name",
+  "description": "description_text",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "author's name",
+      "email": "email@example.com"
+    }
+  ],
+  "require": {
+    "kenjis/codeigniter-ss-twig": "^0.2.1",
+    "adrianorsouza/codeigniter-phpmailer": "v0.1.*",
+    "serhioromano/bootstrap-calendar": "0.2.5"
+  }
+}
