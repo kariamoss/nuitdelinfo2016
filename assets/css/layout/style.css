@@ -12,13 +12,19 @@
 }
 
 .header{
-	position: relative;
-	left:0;
-	height:100%;
 	width:100%;
 	background-color: #1690a0;
+	margin:auto;
+	text-align: center;
+}
+
+.truc{
+	display: inline-block;
+	width:70%;
+	height:100%;
 	display:inline-flex;
 	padding: 40px 0px;
+	margin: auto;
 }
 
 .header .logo{
@@ -43,15 +49,50 @@
 .header .login{
 	margin-top: 20px;
 	float: right;
-	width:30%;
-}
-
-.header input{
-	margin:10px;
-	width:80%;
-	display:block;
+	width:20%;
 }
 
 .header button{
-	margin-left:10px;
+	border-radius:5px;
+	padding:15px;
+	margin-top: 30px;
+}
+
+.content #ressources{
+	display:none;
+}
+
+.tab {
+	height:40px;
+	margin:15px;
+	margin-bottom: 80px;
+}
+
+.tab li{
+	list-style: none;
+	text-decoration: none;
+}
+
+.tab li a{
+	background-color: #1690a0;
+	padding: 15px;
+	color:#fff;
+	text-transform: uppercase;
+	font-size:24px;
+}
+
+.tab li a:hover{
+	text-decoration: none;
+}
+
+.tab #tab1{
+	float:left;
+	width:45%;
+	text-align: center;
+}
+
+.tab #tab2{
+	float:right;
+	width:45%;
+	text-align: center;
 }
