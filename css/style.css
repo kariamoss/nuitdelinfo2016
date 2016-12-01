@@ -3,36 +3,45 @@
 }
 
 .container{
-	background-color: #52B3D9;
-	max-width: 70%;
+	background-color: #40b7bf;
+	max-width: 1000px;
 	margin: 0 auto;
+	padding-left:300px;
+	padding-left: 300px;
+
 }
 
 .header{
-	width:100%;
+	position: relative;
+	left:0;
 	height:100%;
-	background-color: #336E7B;
+	width:100%;
+	background-color: #1690a0;
 	display:inline-flex;
-	padding: 50px 10px;
+	padding: 40px 0px;
 }
 
 .header .logo{
 	float: left;
 	width: 70%;
 	margin: 0px 20px;
+	text-align: center;
 }
 
 .header h1{
 	display: inline-block;
-	font-size:  6em;
+	font-size:  8em;
 	font-weight: bold;
 	margin-left: 20px;
 	vertical-align: middle;
 	color:#fff;
-	text-shadow: 4px 3px 0 #16a085,9px 8px 0 rgba(0,0,0,0.15);
+	text-shadow: 4px 3px 0 #1690a0,9px 8px 0 rgba(0,0,0,0.15);
 }
 
+
+
 .header .login{
+	margin-top: 20px;
 	float: right;
 	width:30%;
 }
