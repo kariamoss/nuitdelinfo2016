@@ -17,4 +17,15 @@ function switcher(evt, cityName) {
     // Show the current tab, and add an "active" class to the link that opened the tab
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
+
+    if(cityName == 'ressources'){
+    document.getElementById("header").style.backgroundColor  = "#f69319";
+    document.getElementById("container").style.backgroundColor  = "#F68700";      
+    }
+
+    if(cityName == 'feeds'){
+    document.getElementById("header").style.backgroundColor  = "#1690a0";
+    document.getElementById("container").style.backgroundColor  = "#40b7bf";  
+    }
 }
+
