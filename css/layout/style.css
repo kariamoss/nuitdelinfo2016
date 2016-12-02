@@ -159,10 +159,40 @@
 }
 
 #img2{
-	display;
+	display:none;
 	width:200px;
 	margin-right:30px;
 	position: absolute;
 	right:5px;
 	top:270px;
+}
+
+#posts{
+	text-align: center;
+}
+
+.post{
+	box-shadow: 0px 0.5px 2px 0px rgba(0,0,0,0.5);
+	display: table;
+    margin: 0 auto;
+	border-radius:5px;
+	min-height: 200px;
+	background-color: #fff;
+	width:50%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.post .title{
+	color:#fff;
+	background-color: #1690a0;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.post .content{
+	vertical-align: middle;
+	margin-top: 25px;
 }

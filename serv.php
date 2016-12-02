@@ -18,7 +18,7 @@ function readF($section){
 		$file = fread($myfile,filesize('json/'.$section.'.json'));
 		$json = json_decode($file)->{$section};
 		for($i = 0 ; $i<count($json); $i++){
-			echo '<div id="post">
+			echo '<div class="post">
         <div class="title">
           <p>Posté par '.$json[$i]->{"name"}.' le 01/12/2016</p>
         </div>
