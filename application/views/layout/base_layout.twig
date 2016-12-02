@@ -5,9 +5,13 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link type="text/css" rel="stylesheet" href="{{ base_url("assets/css/layout/style.css") }}"/>
+  <link type="text/css" rel="stylesheet" href="{{ base_url("assets/css/layout/hover.css") }}"/>
+  <script src="https://use.fontawesome.com/1b7ac1225b.js"></script>
+
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script type="text/javascript" charset="utf-8" src="{{ base_url("assets/js/script.js") }}"></script>
+
 </head>
 <body>
 
@@ -17,11 +21,11 @@
   <div class="logo">
    <img src="{{ base_url("assets/images/logo.png") }}" alt="Logo Tweelp" style="width:150px;height:150px;">
 
-    <h1><i># </i>TWEELP</h1>
+    <h1><i id="tagtitle"># </i>TWEELP</h1>
   </div>
 
   <div class="login">
-    <button type="button">Connect with Twitter</button>
+    <button type="button" style="padding-right:30px;" class="hvr-icon-spin">Connect with Twitter</button>
   </div>
 </div>
 </div>
@@ -32,20 +36,20 @@
 <div class="content">
 
  <ul class="tab">
-  <li><a href="javascript:void(0)" class="tablinks" id="tab1" onclick="switcher(event, 'feeds')">Actualités</a></li>
-  <li><a href="javascript:void(0)" class="tablinks" id="tab2" onclick="switcher(event, 'ressources')">Ressources</a></li>
+  <li><a href="javascript:void(0)" class="tablinks hvr-underline-from-center" id="tab1" onclick="switcher(event, 'feeds')">Actualités</a></li>
+  <li><a href="javascript:void(0)" class="tablinks hvr-underline-from-center" id="tab2" onclick="switcher(event, 'ressources')">Ressources</a></li>
 </ul>
 
 <div id="feeds" class="tabcontent">
       <div class="filter">
-      <button type="button" id="filterbutton1 ">Food</button>
-      <button type="button" id="filterbutton2">Health</button>
-      <button type="button" id="filterbutton3">Roof</button>
-      <button type="button" id="filterbutton4">Stuff</button>
-      <button type="button" id="filterbutton5">SOS</button>
-      <button type="button" id="filterbutton6">Learn</button>
-      <button type="button" id="filterbutton7">Infos</button>
-      <button type="button" id="filterbutton8">Love</button>
+      <button type="button" class="hvr-shadow" id="filterbutton1 ">Food</button>
+      <button type="button" class="hvr-shadow" id="filterbutton2">Health</button>
+      <button type="button" class="hvr-shadow" id="filterbutton3">Roof</button>
+      <button type="button" class="hvr-shadow" id="filterbutton4">Stuff</button>
+      <button type="button" class="hvr-shadow" id="filterbutton5">SOS</button>
+      <button type="button" class="hvr-shadow" id="filterbutton6">Learn</button>
+      <button type="button" class="hvr-shadow" id="filterbutton7">Infos</button>
+      <button type="button" class="hvr-shadow" id="filterbutton8">Love</button>
     </div>
 
     <div class="posts">
@@ -233,14 +237,14 @@
 
 <div id="ressources" class="tabcontent">
    <div class="filter">
-      <button type="button" id="filterbutton11">Food</button>
-      <button type="button" id="filterbutton22">Health</button>
-      <button type="button" id="filterbutton33">Roof</button>
-      <button type="button" id="filterbutton44">Stuff</button>
-      <button type="button" id="filterbutton55">SOS</button>
-      <button type="button" id="filterbutton66">Learn</button>
-      <button type="button" id="filterbutton77">Infos</button>
-      <button type="button" id="filterbutton88">Love</button>
+      <button type="button" class="hvr-shadow" id="filterbutton11">Food</button>
+      <button type="button" class="hvr-shadow" id="filterbutton22">Health</button>
+      <button type="button" class="hvr-shadow" id="filterbutton33">Roof</button>
+      <button type="button" class="hvr-shadow" id="filterbutton44">Stuff</button>
+      <button type="button" class="hvr-shadow" id="filterbutton55">SOS</button>
+      <button type="button" class="hvr-shadow" id="filterbutton66">Learn</button>
+      <button type="button" class="hvr-shadow" id="filterbutton77">Infos</button>
+      <button type="button" class="hvr-shadow" id="filterbutton88">Love</button>
     </div>
 
     <div class="posts">

@@ -20,7 +20,7 @@ function switcher(evt, cityName) {
 
     if(cityName == 'ressources'){
     document.getElementById("header").style.backgroundColor  = "#f69319";
-    document.getElementById("container").style.backgroundColor  = "#F68700";      
+    document.getElementById("container").style.backgroundColor  = "#F68700";       
     }
 
     if(cityName == 'feeds'){
