@@ -196,3 +196,14 @@
 	vertical-align: middle;
 	margin-top: 25px;
 }
+
+.res .title{
+	text-align: center;
+	color:#fff;
+	background-color: #1690a0;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin-top: -7px;
+}
