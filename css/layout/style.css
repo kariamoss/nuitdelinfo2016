@@ -262,3 +262,12 @@
 	margin:0 auto;
 	padding:5px;
 }
+
+
+@media screen and (max-width: 1300px) {
+	#ads{
+		display:none;
+	}
+
+	
+}

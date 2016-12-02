@@ -29,9 +29,5 @@ function switcher(evt, cityName) {
     }
 }
 
-function ad(){
-    $("#hide").click(function(){
-        $("img1").show();
-    });
-}
+
 
