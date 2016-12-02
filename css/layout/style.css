@@ -1,0 +1,149 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+	background-color: #40b7bf;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding-left:300px;
+	padding-left: 300px;
+	transition: background-color 0.2s;
+
+}
+
+.header{
+	width:100%;
+	background-color: #1690a0;
+	margin:auto;
+	text-align: center;
+	transition: background-color 0.2s;
+}
+
+.truc{
+	display: inline-block;
+	width:70%;
+	height:100%;
+	display:inline-flex;
+	padding: 40px 0px;
+	margin: auto;
+}
+
+.header .logo{
+	float: left;
+	width: 70%;
+	margin: 0px 20px;
+	text-align: center;
+}
+
+
+.header h1{
+	display: inline-block;
+	font-size:  8em;
+	font-weight: bold;
+	margin-left: 20px;
+	vertical-align: middle;
+	color:#fff;
+	text-shadow: 4px 3px 0 #1690a0,9px 8px 0 rgba(0,0,0,0.15);
+}
+
+.header h1 i{
+	color:rgba(0,0,0,0);
+	text-shadow: 4px 3px 0 #199aaa,9px 8px 0 rgba(0,0,0,0.15);
+}
+
+
+
+.header .login{
+	margin-top: 20px;
+	float: right;
+	width:20%;
+}
+
+
+.header button{
+	border-radius:5px;
+	padding:15px 30px;
+	margin-top: 30px;
+	border:none;
+}
+
+
+
+.content #ressources{
+	display:none;
+}
+
+.feeds #ressources{
+	 display:none;
+ }
+
+
+
+.tab {
+	height:40px;
+	margin-bottom: 50px;
+	margin-top: 30px;
+	padding:0 !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+.tab li{
+	list-style: none;
+	
+}
+
+.tab li a{
+	background-color: #1690a0;
+	text-decoration: none;
+	padding: 15px;
+	color:#fff;
+	text-transform: uppercase;
+	font-size:24px;
+	transition: background-color 0.2s;
+	box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.5);
+}
+
+.tab li a:hover{
+	text-decoration: none;
+}
+
+.tab .active{
+	background-color: #138190;	
+}
+
+.tab #tab1{
+	float:left;
+	width:49.3%;
+
+	text-align: center;
+
+}
+
+.tab #tab2{
+	float:right;
+	width:49.3%;
+	text-align: center;
+}
+
+.filter{
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.filter button{
+	width:12%;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	background-color: #138190;
+	color:#ffffff;
+	border:none;
+	font-size:16px;
+
+	box-shadow: 0px 0.5px 2px 0px rgba(0,0,0,0.5);
+}
+
+.filter button:active{
+	padding: 7px 0px;
+}
