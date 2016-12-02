@@ -14,25 +14,19 @@ function reportBadRequest() {
 
 readF($_GET["req"]);
 function readF($section){
-    $myfile = fopen($section.'.json', "r") ;
-		$file = fread($myfile,filesize($section.'.json'));
+    $myfile = fopen('json/'.$section.'.json', "r") ;
+		$file = fread($myfile,filesize('json/'.$section.'.json'));
 		$json = json_decode($file)->{$section};
 		for($i = 0 ; $i<count($json); $i++){
 			echo '<div id="post">
         <div class="title">
-          <p>Posté par'.$json[$i]->{"name"}.' le 01/12/2016</p>
+          <p>Posté par '.$json[$i]->{"name"}.' le 01/12/2016</p>
         </div>
-        <div class="tags">
-          <p>#'.$section.'</p>
-        </div>
+       
         <div class="content">
           <p>'.$json[$i]->{"tweet"}.'</p>
         </div>
-        <div class="actions">
-          <button type="button">Partager</button>
-          <button type="button">Like</button>
-          <button type="button">Retweet</button>
-        </div>
+        <br/>
       </div>';
 		}
     fclose($myfile);
