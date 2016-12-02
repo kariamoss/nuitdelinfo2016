@@ -226,4 +226,21 @@
 	margin-top: 25px;
 }
 
+<<<<<<< HEAD
 
+=======
+.res .title{
+	text-align: center;
+	color:#fff;
+	background-color: #1690a0;
+	padding-top: 10px;
+	padding-bottom: 5px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin-top: -7px;
+}
+
+.img-responsive{
+	max-width: 300px;
+}
+>>>>>>> cf823dff9b33807163a13ebfda2b885fc81c4174
