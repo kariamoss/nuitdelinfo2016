@@ -11,6 +11,7 @@
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script type="text/javascript" charset="utf-8" src="{{ base_url("assets/js/script.js") }}"></script>
+  <script type="text/javascript" charset="utf-8" src="{{ base_url("assets/js/request.js") }}"></script>
 
 </head>
 <body>
@@ -43,7 +44,7 @@
 
 <div id="feeds" class="tabcontent">
       <div class="filter">
-      <button type="button" class="hvr-shadow" id="filterbutton1 ">Food</button>
+      <button type="button" class="hvr-shadow" id="filterbutton1" onclick='request("food")'>Food</button>
       <button type="button" class="hvr-shadow" id="filterbutton2">Health</button>
       <button type="button" class="hvr-shadow" id="filterbutton3">Roof</button>
       <button type="button" class="hvr-shadow" id="filterbutton4">Stuff</button>
@@ -54,185 +55,6 @@
     </div>
 
     <div class="posts">
-      <div id="post">
-        <div class="title">
-          <p>Posté par @bgdu38 le 01/12/2016</p>
-        </div>
-
-        <div class="tags">
-          <p>#love</p>
-        </div>
-
-        <div class="content">
-          <p>ON EST LA MON POTE EN BAS DES BLOCKS TU CONNAIS</p>
-        </div>
-
-        <div class="actions">
-          <button type="button">Partager</button>
-          <button type="button">Like</button>
-          <button type="button">Retweet</button>
-        </div>
-      </div>
-    
-<div id="post">
-        <div class="title">
-          <p>Posté par @josh le 01/12/2016</p>
-        </div>
-
-        <div class="tags">
-          <p>#food</p>
-        </div>
-
-        <div class="content">
-          <p>Allez on fait tourner les pommes dauphines</p>
-        </div>
-
-        <div class="actions">
-          <button type="button">Partager</button>
-          <button type="button">Like</button>
-          <button type="button">Retweet</button>
-        </div>
-      </div>
-    
-<div id="post">
-        <div class="title">
-          <p>Posté par @sander le 01/12/2016</p>
-        </div>
-
-        <div class="tags">
-          <p>#learn</p>
-        </div>
-
-        <div class="content">
-          <p>je donne des cours de java</p>
-        </div>
-
-        <div class="actions">
-          <button type="button">Partager</button>
-          <button type="button">Like</button>
-          <button type="button">Retweet</button>
-        </div>
-      </div>
-
-<div id="post">
-        <div class="title">
-          <p>Posté par @sander le 01/12/2016</p>
-        </div>
-
-        <div class="tags">
-          <p>#sos</p>
-      <p>#love</p>
-        </div>
-
-        <div class="content">
-          <p>please</p>
-        </div>
-
-        <div class="actions">
-          <button type="button">Partager</button>
-          <button type="button">Like</button>
-          <button type="button">Retweet</button>
-        </div>
-      </div>
-    
-<div id="post">
-        <div class="title">
-          <p>Posté par @gaspard le 01/12/2016</p>
-        </div>
-
-        <div class="tags">
-          <p>#roof</p>
-        </div>
-
-        <div class="content">
-          <p>j'accueille des p'tites nénéttes quoi</p>
-        </div>
-
-        <div class="actions">
-          <button type="button">Partager</button>
-          <button type="button">Like</button>
-          <button type="button">Retweet</button>
-        </div>
-      </div>
-    
-<div id="post">
-        <div class="title">
-          <p>Posté par @Lucas le 01/12/2016</p>
-        </div>
-
-        <div class="tags">
-          <p>#learn</p>
-        </div>
-
-        <div class="content">
-          <p>J'aime le php et je vais vous partager cette passion</p>
-        </div>
-
-        <div class="actions">
-          <button type="button">Partager</button>
-          <button type="button">Like</button>
-          <button type="button">Retweet</button>
-        </div>
-      </div>
-
-<div id="post">
-        <div class="title">
-          <p>Posté par @dylan le 01/12/2016</p>
-        </div>
-
-        <div class="tags">
-          <p>#info</p>
-        </div>
-
-        <div class="content">
-          <p>si tu cherche un bon dealer sa mère</p>
-        </div>
-
-        <div class="actions">
-          <button type="button">Partager</button>
-          <button type="button">Like</button>
-          <button type="button">Retweet</button>
-        </div>
-      </div>
-    
-<div id="post">
-        <div class="title">
-          <p>Posté par @hopital le 01/12/2016</p>
-        </div>
-
-        <div class="tags">
-          <p>#health</p>
-        </div>
-
-        <div class="content">
-          <p>pouet</p>
-        </div>
-
-        <div class="actions">
-          <button type="button">Partager</button>
-          <button type="button">Like</button>
-          <button type="button">Retweet</button>
-        </div>
-      </div>
-      <div id="post">
-        <div class="title">
-          <p>Posté par @bgdu38 le 01/12/2016</p>
-        </div>
-
-        <div class="tags">
-          <p>#love</p>
-        </div>
-
-        <div class="content">
-          <p>JOSUE LE GROS PD TWA MAIME TU C WALLAH</p>
-        </div>
-
-        <div class="actions">
-          <button type="button">Partager</button>
-          <button type="button">Like</button>
-          <button type="button">Retweet</button>
-        </div>
-      </div>
     </div>
 </div>
 
@@ -248,8 +70,8 @@
       <button type="button" class="hvr-shadow" id="filterbutton88">Love</button>
     </div>
 
-    <div class="posts">
-      <div id="post">
+    <div id="posts">
+      <div class="post">
         <div class="title">
           <p>Posté par @villeDeParis le 01/12/2016</p>
         </div>
@@ -269,7 +91,7 @@
         </div>
       </div>
 
-      <div id="post">
+      <div class="post">
         <div class="title">
           <p>Posté par @joshlePD le 01/12/2016</p>
         </div>
@@ -289,7 +111,7 @@
         </div>
       </div>
     
-<div id="post">
+<div class="post">
         <div class="title">
           <p>Posté par @sander le 01/12/2016</p>
         </div>
@@ -311,7 +133,7 @@
       </div>
 
 
-<div id="post">
+<div class="post">
         <div class="title">
           <p>Posté par @sanderCraneBrillant le 01/12/2016</p>
         </div>
@@ -332,7 +154,7 @@
         </div>
       </div>
     
-<div id="post">
+<div class="post">
         <div class="title">
           <p>Posté par @gaspard le 01/12/2016</p>
         </div>
@@ -352,7 +174,7 @@
         </div>
       </div>
     
-<div id="post">
+<div class="post">
         <div class="title">
           <p>Posté par @LucasLEBG le 01/12/2016</p>
         </div>
@@ -372,7 +194,7 @@
         </div>
       </div>
 
-<div id="post">
+<div class="post">
         <div class="title">
           <p>Posté par @dylan le 01/12/2016</p>
         </div>
