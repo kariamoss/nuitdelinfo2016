@@ -183,6 +183,7 @@
 
 
 #img1{
+	display: none;
 	width:200px;
 	margin-right:30px;
 	position: absolute;
@@ -191,6 +192,7 @@
 }
 
 #img2{
+	display:none;
 	width:200px;
 	margin-right:30px;
 	position: absolute;
@@ -256,3 +258,7 @@
 	max-width: 300px;
 }
 
+#ads{
+	margin:0 auto;
+	padding:5px;
+}
