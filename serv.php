@@ -20,7 +20,7 @@ function readF($section){
 		for($i = 0 ; $i<count($json); $i++){
 			echo '<div class="post">
         <div class="title">
-          <p>Posté par '.$json[$i]->{"name"}.' le 01/12/2016</p>
+          <p>Posté par '.$json[$i]->{"name"}.'</p>
         </div>
        
         <div class="content">
